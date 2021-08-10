@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Currency Conversion</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body class="bg-dark">
+    <!-- Container Start -->
+    <div class="container my-5">
+      <div class="card">
+        <div class="card-header text-center">
+          <h1>A Simple Currency Converter</h1>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-4 text-center">
+              <div class="gallery">
+                <img src="dollar.png" alt="" class="img-fluid rounded my-5" />
+              </div>
+            </div>
+            <div class="col-lg-4 border border-primary border-lg">
+              <form>
+                <label for="">From</label>
+                <div class="input-group mb-3">
+                  <select class="custom-select currency"></select>
+                </div>
+                <label for="">To</label>
+                <div class="input-group mb-3">
+                  <select class="custom-select currency"></select>
+                </div>
+                <div class="form-group">
+                  <label for="">Amount</label>
+                  <input
+                    type="number"
+                    name=""
+                    id=""
+                    class="form-control amount"
+                    placeholder="Type your amount"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="">Result</label>
+                  <input
+                    type="number"
+                    name=""
+                    id=""
+                    class="form-control result"
+                  />
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-block btn-primary mb-3 convert-btn"
+                >
+                  Convert
+                </button>
+              </form>
+            </div>
+            <div class="col-lg-4 text-center">
+              <div class="gallery">
+                <img src="taka.png" alt="" class="img-fluid rounded my-5" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JS Files: Moment JS and App JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
